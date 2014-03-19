@@ -1,0 +1,13 @@
+{
+  "name": "slidesjs3-bower",
+  "homepage": "https://github.com/everlaat/Slides",
+  "_release": "master",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "bb32948d5a41169b0b4f16e31890cbde19b98fc0"
+  },
+  "_source": "git://github.com/everlaat/Slides.git",
+  "_target": "*",
+  "_originalSource": "slidesjs3-bower"
+}
