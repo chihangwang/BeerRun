@@ -1,0 +1,819 @@
+html, body {
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  font-family: "微軟正黑體";
+  font: normal 15px/1.5, "微軟正黑體", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #232525;
+}
+
+
+.slide {
+  background-color: #FFFFFF;
+}
+
+.scroll-down-tip {
+  margin: 5% auto;
+  animation-iteration-count: infinite;
+  animation-duration: 1.2s;
+  font-size: x-large;
+  text-align: center;
+}
+
+/* end slide section */
+
+
+/* run section */
+.run {
+  position: relative;
+  height: 9500px;
+  background: #51A99E;
+}
+
+.run .info-panel {
+  z-index: 100;
+}
+
+.run .road {
+  position: absolute;
+  background: url(../img/bg/website_bg_road1.png) repeat;
+  height: 9000px;
+  width: 546px;    /* width of background image */
+  left: 50%;
+  margin-left: -273px;
+}
+
+.run .about {
+  background: #FFF9EF;
+  width: 768px;
+  padding: 5px 30px 20px 30px;
+  border-radius: 10px;
+  font-size: 20px;
+
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  margin-left: -384px;
+}
+
+.run .about h1 {
+  color: #DF7876; /* ask penny */
+}
+
+.run .start-truss {
+  background: url(../img/bg/website_bg_start_truss.png);
+  width: 768px;
+  height: 260px;
+  z-index: 90;
+
+  position: absolute;
+  top: 500px;
+  left: 50%;
+  margin-left: -384px;
+}
+
+.run .beerman-head {
+  background: url(../img/beerman/beerman_head.png);
+  width: 77px;
+  height: 70px;
+  z-index: 10;
+
+  position: fixed;
+  top: 265px;
+  left: 50%;
+  margin-left: -176px;
+}
+
+.run .beerman-body {
+  background: url(../img/beerman/beerman_body.png);
+  width: 168px;
+  height: 236px;
+  z-index: 1;
+
+  position: fixed;
+  left: 50%;
+  margin-left: -215px;
+}
+
+.run .tshirt {
+  background: url(../img/beerman/beerman_tshirt.png);
+  width: 168px;
+  height: 148px;
+  z-index: 2;
+
+  position: fixed;
+  top: 300px;
+  left: 50%;
+  margin-left: -220px;
+}
+
+.run .wearing-gift .award {
+  background: url(../img/beerman/beerman_award.png);
+  width: 80px;
+  height: 82px;
+  z-index: 4;
+
+  position: fixed;
+  top: 297px;
+  left: 50%;
+  margin-left: -175px;
+}
+
+.run .wearing-gift .cap {
+  background: url(../img/beerman/beerman_cap.png);
+  width: 124px;
+  height: 90px;
+  z-index: 11;
+
+  position: fixed;
+  top: 238px;
+  left: 50%;
+  margin-left: -196px;
+}
+
+.run .wearing-gift .paper {
+  background: url(../img/beerman/beerman_paper.png);
+  width: 76px;
+  height: 55px;
+  z-index: 3;
+
+  position: fixed;
+  top: 375px;
+  left: 50%;
+  margin-left: -174px;
+}
+
+.run .wearing-gift .scarf {
+  background: url(../img/beerman/beerman_scarf.png);
+  width: 147px;
+  height: 153px;
+  z-index: 0;
+
+  position: fixed;
+  top: 295px;
+  left: 50%;
+  margin-left: -85px;
+}
+
+.run .wearing-gift .bag-string {
+  background: url(../img/beerman/beerman_bag-string.png);
+  width: 110px;
+  height: 94px;
+  z-index: 5;
+
+  position: fixed;
+  top: 300px;
+  left: 50%;
+  margin-left: -192px;
+}
+
+.run .wearing-gift .bag {
+  background: url(../img/beerman/beerman_bag.png);
+  width: 115px;
+  height: 127px;
+  z-index: 0;
+
+  position: fixed;
+  top: 295px;
+  left: 50%;
+  margin-left: -192px;
+}
+
+.run .bottle {
+  background: url(../img/bg/website_bg_start_openBeer_1.png);
+  width: 894px;
+  height: 135px;
+
+  position: fixed;
+  bottom: -200px;
+  left: 50%;
+  margin-left: -447px;
+}
+
+.run .foam_left {
+  background: url(../img/bg/website_bg_start_openBeer_2_1.png);
+  width: 467px;
+  height: 247px;
+  transform-origin: bottom left;
+
+  position: fixed;
+  bottom: 200px;
+  left: 40%;
+  margin-left: -233px;
+}
+
+.run .foam_right {
+  background: url(../img/bg/website_bg_start_openBeer_2_2.png);
+  width: 458px;
+  height: 264px;
+  transform-origin: bottom right;
+
+  position: fixed;
+  bottom: 200px;
+  left: 60%;
+  margin-left: -229px;
+}
+
+.run .live-band {
+  background: url(../img/bg/website_bg_liveBand.png);
+  width: 197px;
+  height: 485px;
+
+  position: absolute;
+  top: 2000px;
+  left: 0;
+}
+
+.run .musical-note {
+  background: url(../img/bg/website_bg_liveBand_music.png);
+  width: 65px;
+  height: 62px;
+
+  animation-iteration-count: infinite;
+  animation-duration: 1.2s;
+  animation-name: music;
+
+  position: absolute;
+  top: 2100px;
+  left: 200px;
+}
+
+@keyframes music {
+  0%, 20%, 50%, 80%, 100% {transform: translate(0, 0);}
+  40% {transform: translate(10px, -30px);}
+  60% {transform: translate(20px, -15px);}
+}
+
+.run .river {
+  background: url(../img/bg/website_bg_river1.png);
+  width: 234px;
+  height: 2148px;
+
+  position: absolute;
+  top: 1800px;
+  right: 0;
+}
+
+.run .side-man {
+  background: url(../img/bg/website_bg_side_man.png);
+  width: 92px;
+  height: 114px;
+}
+
+.run .side-man.first {
+  position: absolute;
+  top: 2700px;
+  left: 100px;
+}
+/*-----------------------------------registration info---------------------------------------*/
+.run .register.text {  /*modify for two-column flowchart*/
+  width: 1050px;
+  display: block;
+  background:  #FFF9AE;
+  padding: 5px 30px 20px 30px;
+  font-size: 20px;
+  opacity: 0;
+  border-radius: 10px;
+
+  position: relative;  /*from absoulte to relative*/
+  top: 2600px;
+  /*left: 50%;*/
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.run .register .register-info {
+  width: 450px;
+}
+
+.run .register .cloth {
+  width: 500px;
+  display: inline-block;
+  /*margin-top: 10px;*/
+  position: absolute;
+  margin-left: 490px;
+  margin-top: -270px;
+}
+
+.run .register .registraion-flowchart {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.run .register .regis-flow-css {
+  width: 990px;
+  height: 345px;
+}
+/*----------------------------------------------------------------------------------------*/
+.run .mark-1K {
+  background: url(../img/bg/website_bg_1K_mark.png);
+  width: 134px;
+  height: 168px;
+
+  position: absolute;
+  top: 3200px;
+  left: 200px;
+}
+
+.run .side-man.second {
+  position: absolute;
+  top: 3450px;
+  left: 250px;
+}
+
+.run .side-man.third {
+  position: absolute;
+  top: 3600px;
+  left: 240px;
+}
+
+.run .side-woman {
+  background: url(../img/bg/website_bg_side_woman.png);
+  width: 127px;
+  height: 115px;
+}
+
+.run .side-woman.first {
+  position: absolute;
+  top: 3750px;
+  left: 220px;
+}
+
+.run .side-man.fourth {
+  position: absolute;
+  top: 3900px;
+  left: 220px;
+}
+
+.run .call5 {
+  background: url(../img/bg/website_bg_call5.png);
+  width: 179px;
+  height: 135px;
+
+  position: absolute;
+  top: 3450px;
+  left: 30px;
+}
+
+.run .call10 {
+  background: url(../img/bg/website_bg_call10.png);
+  width: 179px;
+  height: 136px;
+
+  position: absolute;
+  top: 3600px;
+  left: 20px;
+}
+
+.run .call15 {
+  background: url(../img/bg/website_bg_call15.png);
+  width: 179px;
+  height: 135px;
+
+  position: absolute;
+  top: 3900px;
+  left: 0px;
+}
+
+.run .tree-and-kite-container {
+  position: relative;
+  top: 3600px;
+  left: 50%;
+  margin-left: 273px;
+  margin-right: 0;
+  width: calc(50% - 273px);
+  height: 2300px;
+  overflow: hidden;
+}
+
+.run .tree {
+  background: url(../img/bg/website_bg_tree.png);
+  width: 366px;
+  height: 1493px;
+
+  position: absolute;
+  top: 800px;
+  left: 0;
+}
+
+.run .kite {
+  background: url(../img/bg/website_bg_kite.png);
+  width: 309px;
+  height: 387px;
+
+  animation-iteration-count: infinite;
+  animation-duration: 1.2s;
+  animation-name: kite;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 57px;
+  margin-top: 100px;
+}
+
+@keyframes kite {
+  0%, 20%, 50%, 80%, 100% {transform: translate(0, 0);}
+  40% {transform: translate(10px, -30px);}
+  60% {transform: translate(20px, -15px);}
+}
+
+.run .gift {
+  width: 1000px;
+  display: block;
+  background:  #FFF9AE;
+  padding: 5px 30px 20px 30px;
+  font-size: 20px;
+  opacity: 0;
+  border-radius: 10px;
+
+  position: absolute;
+  top: 4100px;
+  left: 50%;
+  margin-left: -500px;
+}
+
+.run .gift .title {
+  font-size: 40px;
+  margin-right: 30px;
+}
+
+.run .side-man.fifth {
+  position: absolute;
+  top: 5100px;
+  left: 150px;
+}
+
+.run .mark-2K {
+  background: url(../img/bg/website_bg_2K_mark.png);
+  width: 134px;
+  height: 168px;
+
+  position: absolute;
+  top: 5300px;
+  left: 200px;
+}
+
+.run .table {
+  background: url(../img/bg/website_bg_beerPushingTable.png);
+  width: 364px;
+  height: 200px;
+
+  position: absolute;
+  top: 5600px;
+  right: 50%;
+  margin-right: 272px
+}
+
+.run .cup {
+  background: url(../img/bg/website_bg_beerPushingBeer.png);
+  width: 57px;
+  height: 73px;
+
+  position: absolute;
+  top: 5664px;
+  right: 50%;
+  margin-right: 292px
+}
+
+.run .side-woman.second {
+  position: absolute;
+  top: 5850px;
+  left: 20px;
+}
+
+.run .side-woman.third {
+  position: absolute;
+  top: 6000px;
+  left: 220px;
+}
+
+.run .map {
+  background: #FFF9AE url(../img/beerrun_map_flow.png) no-repeat;
+  background-size: 800px;
+  background-position: center;
+  border-radius: 10px;
+  width: 840px;
+  height: 490px;
+
+  display: block;
+  position: absolute;
+  top: 6200px;
+  left: 50%;
+  margin-left: -400px;
+}
+
+.run .park {
+  background: url(../img/bg/website_img_bg_park.png);
+  width: 372px;
+  height: 1440px;
+
+  position: absolute;
+  top: 6750px;
+  right: 0;
+}
+
+.run .side-man.sixth {
+  position: absolute;
+  top: 7100px;
+  left: 100px;
+}
+
+.run .side-man.seventh {
+  position: absolute;
+  top: 7300px;
+  left: 100px;
+}
+
+.run .mark-3K {
+  background: url(../img/bg/website_bg_3K_mark.png);
+  width: 134px;
+  height: 168px;
+
+  position: absolute;
+  top: 7350px;
+  left: 200px;
+}
+
+.run .time-and-location {
+  width: 500px;
+  display: block;
+  background:  #FFF9AE;
+  padding: 5px 30px 20px 30px;
+  font-size: 20px;
+  border-radius: 10px;
+
+  position: absolute;
+  top: 7600px;
+  left: 100px;
+}
+
+.run .time-and-location .facebook_flow{ /*add for flow png*/
+  width: 400px;
+  height: 711px;
+  margin-left: 20px;
+}
+
+.run .time-and-location img {
+  width: 50px;
+  margin-left: -20px;
+  margin-top: 10px;
+}
+
+.run .time-and-location table {
+  border-collapse:collapse;
+}
+
+.run .time-and-location table td {
+  padding-right: 20px;
+}
+
+.run .ending {
+  background: url(../img/bg/website_bg_ending.png);
+  width: 768px;
+  height: 260px;
+  z-index: 90;
+
+  position: absolute;
+  top: 8400px;
+  left: 50%;
+  margin-left: -384px;
+}
+
+.run .side-man.eighth {
+  position: absolute;
+  top: 8450px;
+  left: 100px;
+}
+
+.run .line1 {
+  background: url(../img/bg/website_bg_endingLine_1.png);
+  width: 182px;
+  height: 14px;
+  z-index: 95;
+
+  position: absolute;
+  top: 8600px;
+  left: 50%;
+  margin-left: -322px;
+}
+
+.run .line2 {
+  background: url(../img/bg/website_bg_endingLine_2.png);
+  width: 477px;
+  height: 14px;
+  z-index: 95;
+
+  position: absolute;
+  top: 8600px;
+  left: 50%;
+  margin-left: -155px;
+}
+
+.run .side-man.croud1 {
+  position: absolute;
+  top: 9050px;
+  left: 300px;
+}
+
+.run .side-man.croud2 {
+  position: absolute;
+  top: 9200px;
+  left: 250px;
+}
+
+.run .side-man.croud3 {
+  position: absolute;
+  top: 9180px;
+  left: 100px;
+}
+
+.run .side-man.croud4 {
+  position: absolute;
+  top: 9300px;
+  left: 150px;
+}
+
+.run .side-man.croud5 {
+  position: absolute;
+  top: 8950px;
+  right: 200px;
+}
+
+.run .side-man.croud6 {
+  position: absolute;
+  top: 9100px;
+  right: 200px;
+}
+
+.run .side-man.croud7 {
+  position: absolute;
+  top: 9150px;
+  right: 330px;
+}
+
+.run .side-man.croud8 {
+  position: absolute;
+  top: 9300px;
+  right: 330px;
+}
+
+.run .side-woman.croud1 {
+  position: absolute;
+  top: 9300px;
+  left: 10px;
+}
+
+.run .side-woman.croud2 {
+  position: absolute;
+  top: 9250px;
+  right: 200px;
+}
+
+.run .side-woman.croud3 {
+  position: absolute;
+  top: 9100px;
+  right: 80px;
+}
+
+.run .side-woman.croud4 {
+  position: absolute;
+  top: 9180px;
+  right: 440px;
+}
+
+.run .side-woman.croud5 {
+  position: absolute;
+  top: 9340px;
+  right: 450px;
+}
+
+.run .tent {
+  background: url(../img/bg/website_img_tent.png);
+  width: 146px;
+  height: 145px;
+}
+
+.run .tent_a {
+  position: absolute;
+  background: url(../img/bg/website_img_tentAd2.png);
+  width: 146px;
+  height: 145px;
+
+  top: 8700px;
+  left: 50px;
+}
+
+.run  #ytapiplayer2 {
+  position: absolute;
+  width: 146px;
+  height: 145px;
+  top: 8700px;
+  left: 50px;
+}
+
+.run .tent_b {
+  position: absolute;
+  background: url(../img/bg/website_img_tentAd1.png);
+  width: 146px;
+  height: 145px;
+
+  top: 8855px;
+  left: 50px;
+}
+
+.run .ad_b {
+  position: absolute;
+  background: url(../img/bg/website_img_dialog1.png);
+  width: 285px;
+  height: 248px;
+  visibility: hidden;
+
+  top: 8800px;
+  left: 200px;
+}
+
+.run .tent.tent_c {
+  background: url(../img/bg/website_img_tentAd3.png);
+  width: 146px;
+  height: 146px;
+  position: absolute;
+  top: 9010px;
+  left: 50px;
+}
+
+.run .tent.tent_d {
+  position: absolute;
+  top: 9165px;
+  left: 50px;
+}
+
+.run #uber_ad{
+  width: 700px;
+  height: 200px;
+  position: absolute;
+  top: 9250px;
+  left: 20%;
+}
+
+.run #uber_ad #uber{
+  display: inline-block;
+  background: url(../img/bg/website_img_car.png);
+  width: 306px;
+  height: 136px;
+  position: relative;
+  top: 20px;
+}
+
+.run #uber_ad #car_light{
+  display: inline-block;
+  visibility: hidden;
+  background: url(../img/bg/website_img_carLight.png);
+  width: 340px;
+  height: 193px;
+  position: relative;
+  top: -35px;
+}
+
+.run #uber_ad #car_light p{
+  position: relative;
+  visibility: hidden;
+  font-size: 130%;
+  top:35px;
+  left: 45px;
+}
+
+.run .light {
+  background: url(../img/bg/website_bg_partyLight.png);
+  width: 166px;
+  height: 656px;
+
+  position: absolute;
+  top: 8800px;
+  right: 0;
+
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+}
+
+.run .contact {
+  background: #FFF9EF;
+  width: 550px;
+  padding: 5px 0px 20px 30px;
+  border-radius: 10px;
+  font-size: 20px;
+
+  position: absolute;
+  top: 8570px;
+  left: 30%;
+}
+
+/* end run section */
+

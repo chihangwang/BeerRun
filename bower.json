@@ -1,0 +1,14 @@
+{
+  "name": "beer-run",
+  "version": "1.0.0",
+  "dependencies": {
+    "animate.css": null,
+    "bootstrap": null,
+    "font-awesome": "3.0.2",
+    "jquery": "2.0.3",
+    "jquery.localScroll": null,
+    "reset-css": null,
+    "skrollr": null,
+    "slidesjs3-bower": null
+  }
+}

@@ -1,0 +1,8 @@
+#logo-animation {
+  z-index: 500;
+  position:fixed;
+  top:0;
+  left: 50%;           /* center of viewport */
+  margin-left: -256px; /* half of logo image width */
+}
+
